@@ -5,13 +5,9 @@ The file run_Analysis.R is the code to merge the train and test data set, extrac
 standard deviation of measured quantities, and obtain summary data for each subject and each activity (walking, walking upstairs, walking downstairs, sitting, standing, and laying).
 
 In the train and test directory, you have 3 files and a directory
-subject_j.txt indicates which subject provided the information, j = train, test 
-y_j.txt gives the label of the activity, j = train, test
-X_j.txt gives the measurements collected, j = train, test
-The directory Inertial Signals has for the x, y, and z coordinates
-The body acceleration signal obtained by substracting the gravity from total acceleration body_acc_i_j.txt, i = x,y,z, j = train, test
-The angular velocity vector measured by gyroscope for each window sample body_gyro_i_j.txt, i=x,y,z, j = train, test
-The acceleration signal from the smart phone accelerometer in standard gravity units total_acc_i_j.txt, i=x,y,z, j = train, test
+1 subject_j.txt indicates which subject provided the information, j = train, test 
+2 y_j.txt gives the label of the activity, j = train, test
+3 X_j.txt gives the measurements collected, j = train, test
 
 Load the train data into the data frame trainSmartPhoneData, including the activity code and the subject number
 
