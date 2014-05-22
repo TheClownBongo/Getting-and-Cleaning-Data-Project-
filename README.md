@@ -5,8 +5,11 @@ The file run_Analysis.R is the code to merge the train and test data set, extrac
 standard deviation of measured quantities, and obtain summary data for each subject and each activity (walking, walking upstairs, walking downstairs, sitting, standing, and laying).
 
 In the train and test directory, you have 3 files and a directory
+
 1 subject_j.txt indicates which subject provided the information, j = train, test 
+
 2 y_j.txt gives the label of the activity, j = train, test
+
 3 X_j.txt gives the measurements collected, j = train, test
 
 Load the train data into the data frame trainSmartPhoneData, including the activity code and the subject number
