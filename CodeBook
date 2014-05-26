@@ -1,0 +1,30 @@
+In the train and test directory, you have 3 files and a directory
+- subject_j.txt indicates which subject provided the information, j = train, test 
+- y_j.txt gives the label of the activity, j = train, test
+- X_j.txt gives the measurements collected, j = train, test
+- The directory Inertial Signals has for the x, y, and z coordinates
+- The body acceleration signal obtained by substracting the gravity from total acceleration body_acc_i_j.txt, i = x,y,z, j = train, test
+- The angular velocity vector measured by gyroscope for each window sample body_gyro_i_j.txt, i=x,y,z, j = train, test
+- The acceleration signal from the smart phone accelerometer in standard gravity units total_acc_i_j.txt, i=x,y,z, j = train, test
+
+The following measurements are recorded in time domain
+- Body Acceleration in the 3 spatial directions
+- Gravity Acceleration in the 3 spatial directions
+- Body Acceleration Jerk in the 3 spatial directions
+- Body Gyroscope in the 3 spatial directions
+- Body Gyroscope Jerk in the 3 spatial directions
+- Magnitude of Body Acceleration
+- Magnitude of Gravity Acceleration
+- Magnitude of Body Acceleration Jerk
+- Magnitude of Body Gyrospcope Jerk
+
+After applying a Fast Fourier Transform, one obtains
+- Body Acceleration in the 3 spatial directions
+- Gravity Acceleration in the 3 spatial directions
+- Body Acceleration Jerk in the 3 spatial directions
+- Body Gyroscope in the 3 spatial directions
+- Body Gyroscope Jerk in the 3 spatial directions
+- Magnitude of Body Acceleration
+- Magnitude of Gravity Acceleration
+- Magnitude of Body Acceleration Jerk
+- Magnitude of Body Gyrospcope Jerk
